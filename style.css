@@ -1,4 +1,4 @@
-@font-face { font-family: 'PT Sans Narrow'; font-style: normal; font-weight: 400; src: url("../fonts/PT_Sans_Narrow/PTSansNarrow-Regular.ttf") format("truetype"); }
+@font-face { font-family: 'PT Sans Narrow'; font-style: normal; font-weight: 400; src: url("./PTSansNarrow-Regular.ttf") format("truetype"); }
 
 * { padding: 0; margin: 0; -webkit-box-sizing: border-box; box-sizing: border-box; font-family: 'PT Sans Narrow', 'Vardana', sans-serif; }
 
