@@ -2,4 +2,4 @@
 
 HTML hit game.
 
-Play now: https://loleus.github.io/Punch-Ball-Game/
+Play now: https://loleus.github.io/punchball/
