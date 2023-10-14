@@ -5,6 +5,8 @@ window.onload = () => {
     const btn = document.querySelector(".btn");
     const stick = document.querySelector(".stick");
     const target = document.querySelector(".target");
+    const help = document.querySelector(".help h1");
+    const art = document.querySelector(".art");
     const barPower_Fill = document.querySelector(".fill");
     const fillSpan = document.querySelector(".fillSpan");
     const scoreObj = document.querySelector(".score");
@@ -206,11 +208,15 @@ window.onload = () => {
         window.addEventListener("resize", () => resize());
         setFscreen();
         document.addEventListener('click', function (event) {
+            if (event.target == help ) {
+                art.classList.toggle("hidden")
+            }
             if (!event.target.hasAttribute('data-toggle-fullscreen')) return;
             if (document.fullscreenElement) {
                 event.target.textContent = "Set Fullscreen"
                 document.exitFullscreen();
-            } else {
+            } 
+            else {
                 event.target.textContent = "Exit Fullscreen"
                 document.documentElement.requestFullscreen();
             }
