@@ -423,7 +423,7 @@ body {
       rgba(0, 0, 0, 0) 70%,
       black 150%
     ),
-    radial-gradient(100% 100% at 80% 80%, #4eff29 0%, #421b04 50%, #00b7ffa8 94%);
+    radial-gradient(100% 100% at 80% 80%, #4dff29be 0%, #421b04c1 50%, #00b7ffd1 94%);
   height: 100%;
   width: 100%;
   -webkit-animation-name: pbar;
