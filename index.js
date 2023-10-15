@@ -77,6 +77,7 @@ window.onload = () => {
     };
     const startGame = () => {
         lives = 3;
+        livesObj.style = "color:#23eb238c"
         score = 0;
         scoreObj.textContent = `SCORE: ${score}`;
         btn.removeEventListener("click", startGame);
@@ -231,6 +232,7 @@ window.onload = () => {
             btn.removeEventListener("touchstart", btn_pushed);;
             btn.removeEventListener("mousedown", btn_pushed);
             btn.addEventListener("click", startGame);
+            livesObj.style = "color:#f63131ba"
             lives = 0;
         } else {
             TweenMax.set(ball, { clearProps: "all" });
@@ -240,9 +242,10 @@ window.onload = () => {
             btn.addEventListener("mousedown", btn_pushed);
             btn.addEventListener("mouseup", btn_released);
         }
-        livesObj.textContent = `Lives: ${lives}`
+        livesObj.textContent = `♥ = ${lives}`
         barPower_Fill.style.animationName = "none";
         fillSpan.style.animationName = "none";
+
     };
     addListeners();
     init();

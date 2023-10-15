@@ -38,6 +38,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0 3%;
 }
 
 .cloud {
@@ -281,6 +282,7 @@ body {
   );
   border-radius: 45% 45% 10vh 10vh;
   box-shadow: -6px -6px 12px -6px #81bdc83d;
+  padding-bottom: 1vh;
 }
 
 .gradBtn {
@@ -368,7 +370,7 @@ body {
 }
 .lives {
   display: flex;
-  font-size: 1em;
+  font-size: 1.5em;
   line-height: 1.9em;
   color: #a8b669;
   font-weight: 700;
@@ -401,17 +403,11 @@ body {
   height: 100%;
   overflow: hidden;
   background: black;
-  -webkit-animation-name: bar;
   animation-name: bar;
-  -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
-  -webkit-animation-direction: alternate;
   animation-direction: alternate;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  -webkit-animation-play-state: paused;
   animation-play-state: paused;
-  -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
 }
 
@@ -436,13 +432,13 @@ body {
   animation-iteration-count: infinite;
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
-  -webkit-animation-timing-function: ease-out;
+
   animation-timing-function: ease-out;
 }
 
 .score {
-  margin: 1.5vh 1vh 0 1vh;
-  font-size: 3.6vh;
+  margin: 1vh 0 0;
+  font-size: 3vh;
   line-height: 4vh;
   color: #b3a834;
   text-shadow: 0px 0px 5px #0000008c;
@@ -450,8 +446,8 @@ body {
 }
 .fillSpan h1 {
   text-align: center;
-  font-size: 3vh;
-  line-height: 5.5vh;
+  font-size: 2.4vh;
+  line-height: 5.1vh;
   color:  #bbce6645;
   text-shadow: 0px 0px 5px #0000008c;
 }
