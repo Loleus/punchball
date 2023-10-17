@@ -209,7 +209,7 @@ window.onload = () => {
         window.addEventListener("resize", () => resize());
         setFscreen();
         document.addEventListener('click', function (event) {
-            if (event.target == help ) {
+            if (event.target == help || event.target == art) {
                 art.classList.toggle("hidden")
             }
             if (!event.target.hasAttribute('data-toggle-fullscreen')) return;
