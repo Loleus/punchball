@@ -358,12 +358,16 @@ body {
 .art {
   display: block;
   position: absolute;
-  top: -1vh;
+  top: 50vh;
   left: 0;
   width: 98%;
-  background: black;
+  background: #0008;
   color: white;
   padding: 1%;
+  transform: translateY(-50%);
+  padding: 1em;
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
 }
 .hidden {
   display: none;
